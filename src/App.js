@@ -19,21 +19,25 @@ function App() {
   return (
     <div className="justify-c-sb display-flex ">
       <Contact
+        image={"logo.svg"}
         name="Mr. Whiskerson 001"
         email="cat01@email.com"
       />
       <Contact
-        name="Mr. Whiskerson 002" 
+        image={"logo.svg"}
+        name="Mr. Whiskerson 002"
         email="cat02@email.com"
-        />
+      />
       <Contact
-        name="Mr. Whiskerson 003" 
+        image={"logo.svg"}
+        name="Mr. Whiskerson 003"
         email="cat03@email.com"
-        />
+      />
       <Contact
+        image={"logo.svg"}
         name="Mr. Whiskerson 004"
         email="cat04@email.com"
-        />
+      />
     </div>
   );
 }
