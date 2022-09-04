@@ -1,9 +1,4 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
-  height: 40vmin;
   pointer-events: none;
 }
 
@@ -13,16 +8,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/*  */
 
 .App-link {
   color: #61dafb;
@@ -32,7 +18,62 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.width90pc {
+  width: 90%;
+}
+
+.width300px {
+  width: 200px;
+}
+
+.height100px {
+  height: 100px;
+}
+
+.display-flex {
+  display: flex;
+  height: fit-content;
+}
+
+.text-a-c {
+  text-align: center;
+  margin: auto;
+}
+
+.br9px {
+  border-radius: 9px;
+}
+
+.bg-white {
+  background-color: white;
+  padding: 10px;
+}
+
+.justify-c-sb {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.margin20px{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.bxshadow {
+  box-shadow: 0px 0px 5px 3px rgba(161, 154, 154, 0.63);
+}
+
+.text-a-l {
+  text-align: left;
+  font-size: 12px;
+  line-height: 10%;
 }

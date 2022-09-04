@@ -1,23 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
+import Contact from './Contact';
 
 function App() {
+  // const date =new Date();
+  // const hours = date.getHours();
+  // let timeOfDay
+
+  // if(hours < 12){
+  //   timeOfDay = "morning";
+  // }
+  // else if(hours >= 12 && hours < 19){
+  //   timeOfDay = "afternoon";
+  // }
+  // else {
+  //   timeOfDay = "night";
+  // }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="justify-c-sb display-flex ">
+      <Contact
+        name="Mr. Whiskerson 001"
+        email="cat01@email.com"
+      />
+      <Contact
+        name="Mr. Whiskerson 002" 
+        email="cat02@email.com"
+        />
+      <Contact
+        name="Mr. Whiskerson 003" 
+        email="cat03@email.com"
+        />
+      <Contact
+        name="Mr. Whiskerson 004"
+        email="cat04@email.com"
+        />
     </div>
   );
 }
